@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #050816;
+  color: #e8ecff;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #22e0ff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  color: #22e0ff;
+}
+
+header {
+  background-color: #0a1030;
+  border-bottom: 1px solid #2f6bff;
+  padding: 15px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+nav ul a {
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+nav ul a:hover {
+  background-color: #2f6bff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #22e0ff;
+}
+
+.aktif {
+  background-color: #2f6bff;
+}
+
+.judul-warna {
+  color: #9b5cff;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-teks {
+  width: 60%;
+}
+
+.baris {
+  display: flex;
+  gap: 20px;
+}
+
+.baris-2 .card {
+  width: 50%;
+}
+
+.baris-3 .card {
+  width: 33%;
+}
+
+.card {
+  background-color: #111832;
+  border: 1px solid #555;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card:hover {
+  border-color: #22e0ff;
+}
+
+.tombol {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2f6bff;
+  color: white;
+  border-radius: 8px;
+}
+
+.tombol:hover {
+  background-color: #9b5cff;
+}
+
+.tombol-kosong {
+  background-color: transparent;
+  border: 2px solid #22e0ff;
+  color: #22e0ff;
+}
+
+.about-atas {
+  display: flex;
+  gap: 30px;
+}
+
+.about-atas .card {
+  width: 60%;
+}
+
+.foto {
+  width: 300px;
+  border: 3px solid #22e0ff;
+  border-radius: 20px;
+}
+
+.highlight {
+  list-style: none;
+}
+
+.highlight li {
+  display: inline-block;
+  margin: 8px;
+  padding: 6px 12px;
+  border: 1px solid #9b5cff;
+  border-radius: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 10px;
+  border: 1px solid #555;
+  text-align: left;
+}
+
+th {
+  background-color: #2f6bff;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.teknologi {
+  color: #9b5cff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #0a1030;
+  color: white;
+  border: 1px solid #2f6bff;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 120px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #22e0ff;
+}
+
+.sosmed {
+  list-style: none;
+  padding: 0;
+}
+
+.sosmed a {
+  display: block;
+  padding: 12px;
+  border: 1px solid #9b5cff;
+  border-radius: 8px;
+}
+
+.sosmed a:hover {
+  background-color: #9b5cff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #2f6bff;
+  color: #8a94c2;
+}
+
+@media (max-width: 768px) {
+  nav,
+  .hero,
+  .baris,
+  .about-atas {
+    flex-direction: column;
+  }
+  .hero-teks,
+  .baris-2 .card,
+  .baris-3 .card,
+  .about-atas .card {
+    width: 100%;
+  }
+  .foto {
+    width: 100%;
+  }
+}
